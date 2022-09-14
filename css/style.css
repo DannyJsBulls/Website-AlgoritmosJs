@@ -1,0 +1,39 @@
+/* Hostinger es el dominio para tener el sitio en linea y se cancela con tarjeta del cliente */
+/* Github hosting gratis pag de programadores consultas y todo ahi */
+
+body{
+    background-image: url(../img/vida.jpg); /*fondo de pagina*/ /*Para salir de la carpeta es ../ y para abrir / */
+    background-size: 100%; /*Ajusta la imagen al 100%*/
+    text-align: center; /*centra el texto de la pagina*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*se aplica el tipo de letra*/
+}
+
+button{
+    padding: 10px 70px; /*De la linea del boton a la letra*/
+    margin: 16px 30px; /*de la linea del boton para afuera*/
+    font-size: 24px; /*Tamaño de la letra del boton*/
+    background: #256D85; /*Fondo del boton*/
+    color:  #E6E6FA; /*Color de la letra*/
+    border-radius: 20px; /*Borde redondo del boton*/
+    border: 2px; /*margen*/
+    cursor: pointer; /*Para cambiar la flecha, cuando se pone sobre el boton*/
+    transition: 0.5s; /*Maximo medio segundo*/
+}
+button:hover{ /*Cambiar el boton al poner el cursor*/
+    background: #810955; /*Cambio del color al poner el cursor*/
+    transform: scale(1.1);
+    /*padding-block: 12px 14px;*/ /*Para aumentar el tamaño*/
+    /*border-radius: 20px;*/ /*Para poner bordes rectos al aumentar el tamaño*/
+    color: #E6E6FA;
+}
+
+h1{ /*Edicion del estilo del titulo*/
+    color: #E6E6FA; /*Color del titulo*/
+    font-size: 50px; /*Tamaño del titulo*/
+    background-size: cover; /*Editar el fondo de imagen puede ser 100%*/
+    /*El peso de las tipografias para web debe ser entre 300 y 700*/
+}
+
+h2{
+    color: #E6E6FA;
+}
